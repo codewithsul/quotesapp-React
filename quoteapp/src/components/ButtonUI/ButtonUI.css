@@ -24,6 +24,8 @@ button:active{
     border: none;
 }
 .back{
+    display: flex;
+    flex-direction: column;
     width: 250px;
     height: 250px;
     margin-left: auto;
@@ -37,3 +39,9 @@ button:active{
     font-size: 17px;
     font-family: "poppins", sans-serif;
 }
+@media only scren and (max-width:600px) {
+    button{
+        margin-left:35;
+    }
+    
+  }

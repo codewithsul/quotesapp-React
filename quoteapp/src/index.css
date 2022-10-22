@@ -7,11 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./images/background 2.jpg");
   background-size: 1400px;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+@media only screen and (max-width:600px) {
+  body{
+    padding: 10px;
+    background-size: 1800px;
+  }
+
 }
 
 

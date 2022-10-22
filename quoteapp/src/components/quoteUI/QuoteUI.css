@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .wrap{
+    display: flex;
+    flex-direction: column;
     width: 400px;
     margin-top: 15px;
     margin-left: auto;
@@ -32,9 +34,17 @@
     font-weight: bold;
 }
 
-@media only scren and (max-width:600px) {
+@media only screen and (max-width:600px) {
   .wrap {
-    width: 350px;
+    width: 300px;
   }
-  
+  .wrap .quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin-top: 110px;
+  }
 }
+  
